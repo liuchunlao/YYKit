@@ -35,7 +35,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  Create a new instance with the specified name.
- Multiple instances with the same name will make the cache unstable.
+ Multiple instances with the same name will make the cache unstable【不稳定】.
  
  @param name  The name of the cache. It will create a dictionary with the name in
      the app's caches dictionary for disk cache. Once initialized you should not 
